@@ -11,12 +11,12 @@ Insects cause significant damage to agricultural production, leading to economic
 The system is designed to identify insects on sticky traps using image processing algorithms. The identified insects' coordinates are recorded, allowing researchers to analyze and act upon the data. The system has two levels of user access: researchers, who can upload images and retrieve coordinates, and administrators, who manage user permissions and oversee research data.
 
 # Image Processing Workflow #
-* Image Acquisition: * Images are acquired from users, typically in high resolution.
-* Preprocessing: * Images are converted to grayscale and subjected to Gaussian blur to reduce noise and enhance object edges.
-* Thresholding: * The image is converted to a binary format, where the thresholding process differentiates insects (foreground) from the background.
-* Object Detection: * Contours are identified, and insects are marked based on their coordinates.
-* Output: * The processed image, along with a CSV file containing insect coordinates, is generated.
-* Machine Learning Integration: * To improve detection accuracy, machine learning models are trained using a large dataset of labeled insect images. The images undergo a resizing process to optimize memory usage during training. The YOLOv5 model from Ultralytics is used to train the detection algorithm, which is later deployed to identify insects in new images.
+*Image Acquisition:* Images are acquired from users, typically in high resolution.
+*Preprocessing:* Images are converted to grayscale and subjected to Gaussian blur to reduce noise and enhance object edges.
+*Thresholding:* The image is converted to a binary format, where the thresholding process differentiates insects (foreground) from the background.
+*Object Detection:* Contours are identified, and insects are marked based on their coordinates.
+*Output:* The processed image, along with a CSV file containing insect coordinates, is generated.
+*Machine Learning Integration:* To improve detection accuracy, machine learning models are trained using a large dataset of labeled insect images. The images undergo a resizing process to optimize memory usage during training. The YOLOv5 model from Ultralytics is used to train the detection algorithm, which is later deployed to identify insects in new images.
 
 # Technologies Used #
 
