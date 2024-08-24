@@ -21,9 +21,14 @@ The system is designed to identify insects on sticky traps using image processin
 # Technologies Used #
 
 **Python:** Core programming language for developing the algorithms.
+
 **OpenCV:** Library used for image processing tasks.
+
 **YOLOv5:** Machine learning framework used for object detection.
+
 **Anaconda:** Python distribution used for managing packages and environments.
+
 **Make Sense:** Tool used for labeling and preparing the dataset.
+
 **Project Demonstrations:** The repository includes step-by-step illustrations of the image processing stages, from raw image acquisition to the final detection output.
 
