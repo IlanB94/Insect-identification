@@ -2,7 +2,7 @@
 A computer vision project for detecting and identifying harmful insects in agricultural environments using images of sticky traps. The project employs image processing techniques and machine learning (YOLOv5) to accurately identify and differentiate insects from other objects, aiding in informed decision-making for pest control.
 
 ## Insect Identification in Trap Images
-#Project Overview#
+# Project Overview #
 This project, conducted as a final project in the Computer Science department at Sapir Academic College in collaboration with Professor Chen Keisar, focuses on identifying harmful insects in agricultural environments using images of sticky traps. The project is divided into two main teams: the detection team and the classification team. Our team's objective is to identify insects in images of sticky traps and differentiate them from irrelevant objects like debris.
 
 #Motivation#
